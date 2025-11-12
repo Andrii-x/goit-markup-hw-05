@@ -547,6 +547,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .footer-subscribe {
   height: 100%;
+  margin-bottom: 16px;
 }
 
 .subscribe-text {
@@ -610,11 +611,7 @@ img { display: block; max-width: 100%; height: auto; }
   background-color: #404bbf;
 }
 
-.subscribe-icon {
-  margin-bottom: 16px;
-}
 
-/* ==================== MODAL WINDOW ==================== */
 .backdrop {
   position: fixed;
   top: 0;
@@ -780,9 +777,7 @@ img { display: block; max-width: 100%; height: auto; }
   color: #4d5ae5;
 }
 
-.form-comment {
-  margin-bottom: 16px;
-}
+
 /* Submit button */
 .modal-submit {
   display: block;
