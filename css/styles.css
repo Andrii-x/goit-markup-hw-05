@@ -830,8 +830,8 @@ img { display: block; max-width: 100%; height: auto; }
 .sub-input {
   width: 264px;
   height: 40px;
-  border: none  #ffffff;
-  background-color: #404bbf;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -842,7 +842,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 .sub-input::placeholder {
-  color: #F4F4FD; ;
+  color: #ffffff;
 }
 
 .sub-btn {
@@ -865,4 +865,9 @@ img { display: block; max-width: 100%; height: auto; }
 
 .sub-icon {
   margin-left: 16px;
+}
+.user-privacy:checked + .privacy-label .privacy-icon {
+  background-color: var(--accent-color, #404bbf); /* фон */
+  border: none;                                   /* вимкнути бордер */
+  fill: var(--light-color, #F4F4FD);              /* заливка іконки */
 }
