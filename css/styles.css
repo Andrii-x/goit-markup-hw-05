@@ -825,6 +825,9 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 24px;
 }
 
+.form-group {
+  margin-bottom: 16px;
+}
 
 
 .sub-input {
