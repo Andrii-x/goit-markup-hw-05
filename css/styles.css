@@ -825,7 +825,7 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 24px;
 }
 
-.sub-label { }
+
 
 .sub-input {
   width: 264px;
@@ -865,4 +865,12 @@ img { display: block; max-width: 100%; height: auto; }
 
 .sub-icon {
   margin-left: 16px;
+}
+.checkbox-input:checked + .checkbox-label .checkbox-custom {
+  background-color: #404bbf;
+  border: none;
+}
+
+.checkbox-input:checked + .checkbox-label .checkbox-custom .checkbox-icon {
+  fill: #f4f4fd;
 }
