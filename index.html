@@ -362,7 +362,105 @@
   </main>
 
      <!-- Backdrop -->
+<div class="backdrop" id="modal">
+  <div class="modal">
+    <!-- Close button -->
+    <button type="button" class="modal-close">
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  
 
+    <!-- Title -->
+    <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+
+    <!-- Form -->
+    <form class="modal-form">
+      <!-- Name -->
+      <div class="form-field">
+        <label class="form-label" for="user-name">Name</label>
+        <div class="input-wrapper">
+          <input
+            class="form-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+          />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="form-field">
+        <label class="form-label" for="user-phone">Phone</label>
+        <div class="input-wrapper">
+          <input
+            class="form-input"
+            id="user-phone"
+            name="user-phone"
+            type="tel"
+          />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="form-field">
+        <label class="form-label" for="user-email">Email</label>
+        <div class="input-wrapper">
+          <input
+            class="form-input"
+            id="user-email"
+            name="user-email"
+            type="email"
+          />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-email"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Comment -->
+      <div class="form-field-comment">
+        <label class="form-label" for="user-comment">Comment</label>
+        <textarea
+          class="form-textarea"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="form-checkbox">
+        <input
+          class="checkbox-input visually-hidden"
+          id="user-privacy"
+          type="checkbox"
+          name="user-privacy"
+          value="true"
+        />
+        <label class="checkbox-label" for="user-privacy">
+          <span class="checkbox-custom">
+            <svg class="checkbox-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+          </span>
+           I accept the terms and conditions of the
+          <a href="#" class="checkbox-link">Privacy Policy</a>
+        </label>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="modal-submit">Відправити</button>
+    </form>
+  </div>
+</div>
   <footer class="footer">
     <div class="container footer-container">
 
@@ -527,6 +625,10 @@
           <a href="#" class="checkbox-link">Privacy Policy</a>
         </label>
       </div>
-
+<!-- Submit -->
+      <button type="submit" class="modal-submit">Відправити</button>
+    </form>
+  </div>
+</div>
 </body>
 </html>
