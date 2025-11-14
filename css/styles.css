@@ -825,7 +825,7 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 24px;
 }
 
-
+.sub-label { }
 
 .sub-input {
   width: 264px;
@@ -865,9 +865,4 @@ img { display: block; max-width: 100%; height: auto; }
 
 .sub-icon {
   margin-left: 16px;
-}
-.user-privacy:checked + .privacy-label .privacy-icon {
-  background-color: var(--accent-color, #404bbf); /* фон */
-  border: none;                                   /* вимкнути бордер */
-  fill: var(--light-color, #F4F4FD);              /* заливка іконки */
 }
