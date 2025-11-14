@@ -866,11 +866,8 @@ img { display: block; max-width: 100%; height: auto; }
 .sub-icon {
   margin-left: 16px;
 }
-.checkbox-input:checked + .checkbox-label .checkbox-custom {
-  background-color: #404bbf;
+.checkbox-input:checked + .checkbox-label .checkbox-span {
+  background-color: var(--accent, #404bbf);
   border: none;
-}
-
-.checkbox-input:checked + .checkbox-label .checkbox-custom .checkbox-icon {
-  fill: #f4f4fd;
+  fill: var(--light, #f4f4fd);
 }
