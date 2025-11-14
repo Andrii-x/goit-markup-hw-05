@@ -782,6 +782,9 @@ img { display: block; max-width: 100%; height: auto; }
   color: #4d5ae5;
 }
 
+.subscribe-icon {
+  margin-left: 16px;
+}
 
 /* Submit button */
 .modal-submit {
@@ -874,6 +877,6 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* відступ між div і наступним елементом */
-.form-checkbox {
+.form-checkcub {
   margin-bottom: 16px;
 }
