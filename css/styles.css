@@ -800,7 +800,8 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* контейнер input/textarea */
 .form-field {
-  margin-bottom: 8px;
+  position: relative;
+  margin-bottom: 24px;
 }
 
 /* label */
@@ -850,6 +851,7 @@ img { display: block; max-width: 100%; height: auto; }
   fill: #4d5ae5;
 }
 
+
 /* ===== TEXTAREA ===== */
 .form-textarea {
   width: 100%;
@@ -870,6 +872,7 @@ img { display: block; max-width: 100%; height: auto; }
 .form-textarea:focus {
   border-color: #4d5ae5;
 }
+
 
 /* ===== CHECKBOX BLOCK ===== */
 .form-checkbox {
@@ -933,4 +936,8 @@ img { display: block; max-width: 100%; height: auto; }
 .modal-submit:hover,
 .modal-submit:focus {
   background-color: #404bbf;
+}
+
+.input-wrap {
+  position: relative;
 }
