@@ -847,6 +847,9 @@ img { display: block; max-width: 100%; height: auto; }
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
+.form-input:focus ~ .input-icon {
+  fill: #4d5ae5;
+}
 
 
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
