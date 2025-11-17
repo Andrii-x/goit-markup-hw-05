@@ -144,6 +144,19 @@ img { display: block; max-width: 100%; height: auto; }
   max-width: 1440px;
   margin: 0 auto;
 }
+.hero-section {
+  max-width: 1440px;
+  background-image: 
+    linear-gradient(
+      rgba(46, 47, 66, 0.7), 
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-image.jpg"); /* або .jpeg */
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .hero-title {
   font-size: 56px;
