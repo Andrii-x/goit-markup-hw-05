@@ -361,269 +361,76 @@
 </section>
   </main>
 
-     <!-- Backdrop -->
-<div class="backdrop" id="modal">
-  <div class="modal">
-    <!-- Close button -->
-    <button type="button" class="modal-close">
-      <svg class="modal-close-icon" width="8" height="8">
-        <use href="./images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-  
+  <footer class="footer">
+  <div class="container footer-container">
 
-    <!-- Title -->
-    <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-
-    <!-- Form -->
-    <form class="modal-form">
-      <!-- Name -->
-      <div class="form-field">
-        <label class="form-label" for="user-name">Name</label>
-        <div class="input-wrapper">
-          <input
-            class="form-input"
-            id="user-name"
-            name="user-name"
-            type="text"
-          />
-          <svg class="form-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-person"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Phone -->
-      <div class="form-field">
-        <label class="form-label" for="user-phone">Phone</label>
-        <div class="input-wrapper">
-          <input
-            class="form-input"
-            id="user-phone"
-            name="user-phone"
-            type="tel"
-          />
-          <svg class="form-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Email -->
-      <div class="form-field">
-        <label class="form-label" for="user-email">Email</label>
-        <div class="input-wrapper">
-          <input
-            class="form-input"
-            id="user-email"
-            name="user-email"
-            type="email"
-          />
-          <svg class="form-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-email"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Comment -->
-      <div class="form-field-comment">
-        <label class="form-label" for="user-comment">Comment</label>
-        <textarea
-          class="form-textarea"
-          id="user-comment"
-          name="user-comment"
-          placeholder="Text input"
-        ></textarea>
-      </div>
-
-      <!-- Checkbox -->
-      <div class="form-checkbox">
-        <input
-          class="checkbox-input visually-hidden"
-          id="user-privacy"
-          type="checkbox"
-          name="user-privacy"
-          value="true"
-        />
-        <label class="checkbox-label" for="user-privacy">
-          <span class="checkbox-custom">
-            <svg class="checkbox-icon" width="10" height="8">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-          </span>
-           I accept the terms and conditions of the
-          <a href="#" class="checkbox-link">Privacy Policy</a>
-        </label>
-      </div>
-
-      <!-- Submit -->
-      <button type="submit" class="modal-submit">Відправити</button>
-    </form>
-  </div>
-</div>
-<footer class="footer">
-    <div class="container footer-container">
-
-      <div class="footer-info">
-        <a href="./index.html" class="footer-logo">
-          Web<span class="footer-logo-span">Studio</span>
-        </a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-        </p>
-      </div>
-
-      <div class="footer-social">
-        <p class="social-text">Social media</p>
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- НОВИЙ БЛОК З ФОРМОЮ -->
-      <div class="sub-box">
-        <p class="sub-title">Subscribe</p>
-
-        <form class="sub-form">
-          <label class="sub-label">
-            <input
-              class="sub-input"
-              type="email"
-              name="user-email"
-              placeholder="E-mail"
-            />
-          </label>
-
-          <button type="submit" class="sub-btn">
-            Subscribe
-            <svg class="sub-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-
+    <div class="footer-info">
+      <a href="./index.html" class="footer-logo">
+        Web<span class="footer-logo-span">Studio</span>
+      </a>
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+      </p>
     </div>
-</footer>
-<div class="backdrop is-hidden" id="modal">
-  <div class="modal-window">
-    <button type="button" class="modal-close" data-modal-close>
-      <svg class="modal-close-icon" width="8" height="8">
-        <use href="./images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
 
-    <p class="modal-title">Leave your contacts and we will call you back</p>
-
-    <form class="modal-form">
-      <!-- NAME -->
-      <!-- Модальне вікно -->
-<div class="modal-overlay">
-  <div class="modal-window">
-    <!-- Кнопка закриття -->
-    <button type="button" class="modal-close">
-      <svg class="modal-close-icon" width="8" height="8">
-        <use href="./images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-
-    <!-- Заголовок / текст -->
-    <p class="modal-text">Fill out the form below</p>
-
-    <!-- Форма -->
-    <form class="modal-form">
-      <!-- Name -->
-      <div class="form-group">
-        <label for="user-name" class="form-label">Name</label>
-        <div class="input-wrapper">
-          <input id="user-name" name="user-name" type="text" class="form-input" placeholder="Text input">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-user"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Phone -->
-      <div class="form-group">
-        <label for="user-phone" class="form-label">Phone</label>
-        <div class="input-wrapper">
-          <input id="user-phone" name="user-phone" type="text" class="form-input" placeholder="Text input">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Email -->
-      <div class="form-group">
-        <label for="user-email" class="form-label">Email</label>
-        <div class="input-wrapper">
-          <input id="user-email" name="user-email" type="text" class="form-input" placeholder="Text input">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-mail"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Comment -->
-      <div class="form-group">
-        <label for="user-comment" class="form-label">Коментар</label>
-        <textarea id="user-comment" name="user-comment" class="form-textarea" placeholder="Text input"></textarea>
-      </div>
-
-      <!-- Checkbox -->
-      <div class="form-checkbox">
-        <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="checkbox-input visually-hidden">
-        <label for="user-privacy" class="checkbox-label">
-          <span class="checkbox-custom">
-            <svg class="checkbox-icon" width="10" height="8">
-              <use href="./images/icons.svg#icon-check"></use>
+    <div class="footer-social">
+      <p class="social-text">Social media</p>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
             </svg>
-          </span>
-          Я приймаю умови та положення
-          <a href="#" class="checkbox-link">Політика конфіденційності</a>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- НОВИЙ БЛОК З ФОРМОЮ -->
+    <div class="sub-box">
+      <p class="sub-title">Subscribe</p>
+
+      <form class="sub-form">
+        <label class="sub-label">
+          <input
+            class="sub-input"
+            type="email"
+            name="user-email"
+            placeholder="E-mail"
+          />
         </label>
-      </div>
 
-      <!-- Кнопка відправки -->
-      <button type="submit" class="form-btn">Submit</button>
-    </form>
+        <button type="submit" class="sub-btn">
+          Subscribe
+          <svg class="sub-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+
   </div>
-</div>
-
-
-      <!-- BUTTON -->
-      <button type="submit" class="modal-submit">Send</button>
-    </form>
-  </div>
-</div>
-
+</footer>
 </body>
 </html>
