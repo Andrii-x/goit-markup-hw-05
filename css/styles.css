@@ -138,7 +138,7 @@ img { display: block; max-width: 100%; height: auto; }
   padding: 188px 0;
   background-image: 
   linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url("../images/hero-bg.jpg");
+  url("../images/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
