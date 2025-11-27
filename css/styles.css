@@ -448,6 +448,8 @@ img { display: block; max-width: 100%; height: auto; }
 /* ===== Футер ===== */
 .footer {
   background-color: #2e2f42;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .footer-container {
